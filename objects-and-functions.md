@@ -51,9 +51,12 @@ Function Prototypes
 ===
 
 ```
-var f={m:1,b:2};
-f.action=(x)::{
-  return this.m*x+this.b;
+var f = {
+  m: 1,
+  b: 2
+};
+f.action = (x)::{
+  return this.m * x + this.b;
 };
 print(f(10));//outputs 1*10+2=12
 ```
