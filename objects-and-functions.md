@@ -9,7 +9,7 @@ An object which has the `action` property set becomes a function.
 `action` is a block + ref map combo:
 
 ```
-o.x = (a, b)::{
+o.action = (a, b)::{
   a + b
 };
 ```
@@ -17,7 +17,7 @@ o.x = (a, b)::{
 or
 
 ```
-o.f = inputmap::{
+o.action = inputmap::{
   x * y
 };
 ```
